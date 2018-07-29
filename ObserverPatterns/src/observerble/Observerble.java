@@ -10,7 +10,9 @@ public interface Observerble {
 
     /**
      * 接受主题状态值
-     * @param
+     * @param temperature 温度
+     * @param humidity 湿度
+     * @param pressure 压力
      * @return
      */
     public void update(float temperature, float humidity, float pressure);

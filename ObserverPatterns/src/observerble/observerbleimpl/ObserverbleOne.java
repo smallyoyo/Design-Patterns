@@ -1,6 +1,7 @@
 package observerble.observerbleimpl;
 
 import observer.Subject;
+import observer.observerimpl.SubjectImpl;
 import observerble.Observerble;
 
 /**
@@ -36,6 +37,14 @@ public class ObserverbleOne implements Observerble {
         System.out.println("I'm observerbleOne: just now temperature is "+temperature
             +"and just now humidity is "+humidity
             +"and just now pressure is "+pressure
+        );
+    }
+
+    public void displayGet(Subject sub) {
+        SubjectImpl subject = (SubjectImpl)sub;
+        System.out.println("I'm observerbleOne: just now temperature is "+subject.getTemperature()
+                +"and just now humidity is "+subject.getHumidity()
+                +"and just now pressure is "+subject.getPressure()
         );
     }
 }

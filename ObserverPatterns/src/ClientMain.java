@@ -12,9 +12,13 @@ import observerble.observerbleimpl.ObserverbleTwo;
  **/
 public class ClientMain {
     public static void main(String[] args) {
-        Subject subject = new SubjectImpl();
-        Observerble observerble1 = new ObserverbleOne(subject);
-        Observerble observerble2 = new ObserverbleTwo(subject);
-        ((SubjectImpl) subject).setMeasurements(24,56,32);
+        SubjectImpl subject = new SubjectImpl();
+        ObserverbleOne observerble1 = new ObserverbleOne(subject);
+        ObserverbleTwo observerble2 = new ObserverbleTwo(subject);
+        //主题主动推送
+        subject.setMeasurements(24,56,32);
+        //观察者拉取
+        observerble1.displayGet(subject);
+
     }
 }
