@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="52cd3acc-e85d-49d2-b002-19eeef92620c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/observer/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="60">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObserverbleTwo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ObserverbleTwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/observerble/observerbleimpl/ObserverbleTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="-140">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +72,8 @@
       <file leaf-file-name="SubjectImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/observer/observerimpl/SubjectImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="49" column="33" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="33" />
+            <state relative-caret-position="1035">
+              <caret line="49" column="33" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
@@ -85,11 +100,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/observerble/Observer.java" />
         <option value="$PROJECT_DIR$/src/observer/observerimpl/SubjectImpl.java" />
         <option value="$PROJECT_DIR$/src/observerble/observerbleimpl/ObserverbleOne.java" />
         <option value="$PROJECT_DIR$/src/observerble/observerbleimpl/ObserverbleTwo.java" />
+        <option value="$PROJECT_DIR$/src/ClientMain.java" />
+        <option value="$PROJECT_DIR$/src/observer/Subject.java" />
       </list>
     </option>
   </component>
@@ -145,13 +161,6 @@
               <item name="ObserverPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="observerble" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ObserverPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObserverPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="observerble" type="462c0819:PsiDirectoryNode" />
-              <item name="observerbleimpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532877600606</updated>
       <workItem from="1532877606174" duration="5000" />
-      <workItem from="1532877648263" duration="2044000" />
+      <workItem from="1532877648263" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2049000" />
+    <option name="totallyTimeSpent" value="2436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -223,18 +232,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.3292517" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -271,29 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/observerimpl/SubjectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="33" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/observerble/Observerble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -313,11 +301,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/observerble/observerbleimpl/ObserverbleTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="-140">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/observerimpl/SubjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="49" column="33" selection-start-line="47" selection-start-column="7" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>

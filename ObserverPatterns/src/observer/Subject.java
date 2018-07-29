@@ -12,14 +12,14 @@ public interface Subject {
 
     /**
      * 注册一个观察者
-     * @param
+     * @param o 观察者
      * @return
      */
     public void registerObserver(Observerble o);
 
     /**
      * 删除一个观察者
-     * @param
+     * @param o 观察者
      * @return
      */
     public void removeObserver(Observerble o);
